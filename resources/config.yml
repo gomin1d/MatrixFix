@@ -1,0 +1,15 @@
+# Плагин отключает указанные проверки при pvp с мобами, но при pvp с игроками они активны
+# /matrixfix - перезагрузить конфиг, право matrixfix.command
+
+# Писать логи об отмененных срабатываниях
+debug: true
+
+# время действия проверок 'only-player-components' после последнего удара при пвп игрока с игроком
+pvp-time-seconds: 10
+
+# компоненты проверок Matrix, которые включать только при pvp с игроками
+only-player-components:
+  - 'ka.post'
+  - 'ka.action'
+  - 'ka.dead'
+  - 'vel.horizon'

@@ -1,0 +1,6 @@
+name: MatrixFix
+main: ua.lokha.matrixfix.Main
+version: "1"
+commands:
+  matrixfix:
+    permission: matrixfix.command
